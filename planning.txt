@@ -1,0 +1,32 @@
+* runner file
+
+if mainMenu = 1
+    create new account
+    add account to list_of_people
+    move on to log in
+
+if mainMenu = 2
+    log in
+    if successfully logged in
+        if userMenu = 1
+            send a message (how to add the message to the friend's inbox array?)
+        if userMenu = 2
+            if manageAccountMenu = 1
+                edit my details
+            if manageAccountMenu = 2
+                add a friend
+            if manageAccountMenu = 3
+                block a friend
+            if manageAccountMenu = 4
+                view all friends
+            if manageAccountMenu = 5
+                view all messages
+            if manageAccountMenu = 6
+                go back
+        if userMenu = 3
+            quit
+    if not successfully logged in
+        show a message that user info is incorrect
+        show mainMenu
+if mainMenu = 3
+    quit
